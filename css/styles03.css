@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Verdana, fantasy;
+  font-family: "Nanum Gothic", sans-serif;
+}
+h1 {
+  width: 20%;
+  margin: 0 auto 0 auto;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.top-con {
+  background-color: aquamarine;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+.middle-con {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-con {
+  background-color: chartreuse;
+  width: 200px;
+  height: 200px;
+}
