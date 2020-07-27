@@ -3,15 +3,48 @@ body {
   text-align: center;
   font-family: Verdana, fantasy;
   font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.1em;
 }
 h1 {
-  width: 20%;
-  margin: 0 auto 0 auto;
+  font-size: 5rem;
+  margin-top: 50px auto 0 auto;
   font-family: "Nanum Pen Script", cursive;
+  color: darkgreen;
+}
+h2 {
+  font-size: 2.5rem;
+  color: blueviolet;
+  font-weight: normal;
+}
+h3 {
+  color: cadetblue;
 }
 
-.top-con {
-  background-color: aquamarine;
+.skill-row {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.computer-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.p1-txt {
+  clear: left;
+}
+.p2-txt {
+}
+
+.top-container {
+  background-color: skyblue;
   position: relative;
   padding-top: 100px;
 }
@@ -24,16 +57,10 @@ h1 {
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  top: 300px;
+  top: 350px;
 }
-.middle-con {
-  background-color: blueviolet;
-  width: 200px;
-  height: 200px;
+.middle-container {
 }
 
-.bottom-con {
-  background-color: chartreuse;
-  width: 200px;
-  height: 200px;
+.bottom-container {
 }
